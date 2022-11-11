@@ -1,0 +1,18 @@
+.fotos {
+    width: max-content;
+    display: grid;
+    direction: rtl;
+    grid-template-columns: repeat(4, 4fr);
+    column-gap: 1rem;
+    
+}
+
+.foto-met-caption {
+    display: grid;
+    align-content: flex-end;
+    justify-items: center;
+}
+
+img {
+    width: 180px;
+}
